@@ -1,0 +1,136 @@
+.flex{
+    display: flex;
+}
+.flex-row{
+    flex-direction: row;
+}
+.flex-column{
+    flex-direction: column;
+}
+.justify-content-start{
+    justify-content: flex-start;
+}
+.justify-content-end{
+    justify-content: flex-end;
+}
+
+.justify-content-center{
+    justify-content: center;
+}
+
+.justify-content-between{
+    justify-content: space-between;
+}
+.justify-content-around{
+    justify-content: space-around;
+}
+.justify-content-evenly{
+    justify-content: space-evenly;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.flex-no-wrap{
+    flex-wrap: nowrap;
+}
+
+.flex-grow{
+    flex-grow: inherit;
+}
+.flex-shrink{
+    flex-shrink: inherit;
+}
+.flex-basis{
+    flex-basis: auto;
+}
+.flex-flow{
+    flex-flow: inherit;
+}
+.align-items-center{
+    align-items: center;
+}
+//paddinds
+@each $size in $sizes {
+    .p-#{size} {
+        padding: $size+px;
+    }   
+}
+
+@each $size in $sizes {
+    .px-#{size} {
+        padding:0px $size+px !important;
+    }   
+}
+
+@each $size in $sizes {
+    .py-#{size} {
+        padding: $size+px 0px !important;
+    }   
+}
+
+@each $size in $sizes {
+    .pt-#{size} {
+        padding-top: $size+px !important;
+    }   
+}
+
+@each $size in $sizes {
+    .pb-#{size} {
+        padding-bottom: $size+px !important;
+    }   
+}
+
+@each $size in $sizes {
+    .pl-#{size} {
+        padding-left: $size+px !important;
+    }   
+}
+
+@each $size in $sizes {
+    .pr-#{size} {
+        padding-right: $size+px !important;
+    }   
+}
+
+//margins
+@each $size in $sizes {
+    .m-#{size} {
+        margin: $size+px;
+    }   
+}
+
+@each $size in $sizes {
+    .mx-#{size} {
+        margin:0px $size+px !important;
+    }   
+}
+
+@each $size in $sizes {
+    .my-#{size} {
+        margin: $size+px 0px !important;
+    }   
+}
+
+@each $size in $sizes {
+    .mt-#{size} {
+        margin-top: $size+px !important;
+    }   
+}
+
+@each $size in $sizes {
+    .mb-#{size} {
+        margin-bottom: $size+px !important;
+    }   
+}
+
+@each $size in $sizes {
+    .ml-#{size} {
+        margin-left: $size+px !important;
+    }   
+}
+
+@each $size in $sizes {
+    .mr-#{size} {
+        margin-right: $size+px !important;
+    }   
+}
