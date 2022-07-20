@@ -5,8 +5,7 @@ h3,
 h4,
 h5,
 h6,
-p,
-#header .header-navbar .header-navbar-menu ul li a {
+p {
   padding: 0px;
   margin: 0px;
   color: inherit;
@@ -117,31 +116,31 @@ a {
   padding: 35px;
 }
 
-.px-size {
+.px-5 {
   padding: 0px 5px !important;
 }
 
-.px-size {
+.px-10 {
   padding: 0px 10px !important;
 }
 
-.px-size {
+.px-15, #header .header-navbar .header-navbar-menu ul li a {
   padding: 0px 15px !important;
 }
 
-.px-size {
+.px-20 {
   padding: 0px 20px !important;
 }
 
-.px-size {
+.px-25 {
   padding: 0px 25px !important;
 }
 
-.px-size {
+.px-30 {
   padding: 0px 30px !important;
 }
 
-.px-size {
+.px-35 {
   padding: 0px 35px !important;
 }
 
@@ -700,13 +699,13 @@ a {
   }
 }
 #header {
-  border: 1px solid red;
-  height: 100vh;
-  background-image: url(../images/image1.jpeg);
+  height: 85px;
+  background-color: rgb(19, 19, 19);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   position: relative;
+  font-family: "Inter", sans-serif;
 }
 #headerafter {
   content: "";
@@ -726,7 +725,12 @@ a {
 }
 #header .header-navbar .header-navbar-menu ul li a {
   color: white;
-  
+  font-size: 1em;
+  font-weight: 600;
+}
+
+.header-navbar-logo ul img {
+  width: 78px;
 }
 
 #hero .box {
@@ -742,13 +746,13 @@ a {
 }
 
 #header {
-  border: 1px solid red;
-  height: 100vh;
-  background-image: url(../images/image1.jpeg);
+  height: 85px;
+  background-color: rgb(19, 19, 19);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   position: relative;
+  font-family: "Inter", sans-serif;
 }
 #headerafter {
   content: "";
@@ -768,5 +772,10 @@ a {
 }
 #header .header-navbar .header-navbar-menu ul li a {
   color: white;
-  text-transform: uppercase;
+  font-size: 1em;
+  font-weight: 600;
+}
+
+.header-navbar-logo ul img {
+  width: 78px;
 }

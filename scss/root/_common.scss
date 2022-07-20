@@ -57,7 +57,7 @@
 }
 
 @each $size in $sizes {
-    .px-#{size} {
+    .px-#{$size} {
         padding:0px $size+px !important;
     }   
 }
