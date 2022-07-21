@@ -5,6 +5,8 @@
     background-repeat: no-repeat;
     background-position: center center;
     position: relative;
+    position: fixed;
+    width: 100%;
     font-family: $main-font;
     &after{
         content: "";
@@ -16,18 +18,23 @@
         background: rgba(60,60,60,.5);
     }
     .header-navbar{
-    border-bottom: 1px solid gray;
     .header-navbar-menu{
         position: relative;
         z-index: 3;
-            ul{@extend .flex;
+             ul{@extend .flex;
                 @extend .align-items-center;
-                
+                @extend .justify-content-end; 
+                @extend .p-size;         
                 li{
                     a{ color: white;
                        @extend .px-15;
-                       font-size: 1em;
-                       font-weight: 600;
+                       font-size: 16px;
+                       font-weight: 600;                       
+                     }
+                     button{
+                        padding: 16px 32px;
+                        border-radius: 50px;
+                        background-image: linear-gradient(90deg, #fc00ff, #00dbde);
                      }
                 }
             }
@@ -35,10 +42,15 @@
 }
 }
 }
-.header-navbar-logo{
-    ul{
-        img{
-            width: 78px;
+    .header-navbar-logo{
+        ul{ @extend .p-size;
+            img{
+                width: 78px;
+                padding-left: 35px
+                font-size: 16px;
+                font-weight: 600;
+            }
         }
     }
-}
+
+

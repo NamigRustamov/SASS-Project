@@ -40,7 +40,7 @@ a {
   justify-content: flex-start;
 }
 
-.justify-content-end {
+.justify-content-end, #header .header-navbar .header-navbar-menu ul {
   justify-content: flex-end;
 }
 
@@ -88,31 +88,31 @@ a {
   align-items: center;
 }
 
-.p-size {
+.p-size, .header-navbar-logo ul, #header .header-navbar .header-navbar-menu ul {
   padding: 5px;
 }
 
-.p-size {
+.p-size, .header-navbar-logo ul, #header .header-navbar .header-navbar-menu ul {
   padding: 10px;
 }
 
-.p-size {
+.p-size, .header-navbar-logo ul, #header .header-navbar .header-navbar-menu ul {
   padding: 15px;
 }
 
-.p-size {
+.p-size, .header-navbar-logo ul, #header .header-navbar .header-navbar-menu ul {
   padding: 20px;
 }
 
-.p-size {
+.p-size, .header-navbar-logo ul, #header .header-navbar .header-navbar-menu ul {
   padding: 25px;
 }
 
-.p-size {
+.p-size, .header-navbar-logo ul, #header .header-navbar .header-navbar-menu ul {
   padding: 30px;
 }
 
-.p-size {
+.p-size, .header-navbar-logo ul, #header .header-navbar .header-navbar-menu ul {
   padding: 35px;
 }
 
@@ -705,6 +705,8 @@ a {
   background-repeat: no-repeat;
   background-position: center center;
   position: relative;
+  position: fixed;
+  width: 100%;
   font-family: "Inter", sans-serif;
 }
 #headerafter {
@@ -716,21 +718,25 @@ a {
   left: 0px;
   background: rgba(60, 60, 60, 0.5);
 }
-#header .header-navbar {
-  border-bottom: 1px solid gray;
-}
 #header .header-navbar .header-navbar-menu {
   position: relative;
   z-index: 3;
 }
 #header .header-navbar .header-navbar-menu ul li a {
   color: white;
-  font-size: 1em;
+  font-size: 16px;
   font-weight: 600;
+}
+#header .header-navbar .header-navbar-menu ul li button {
+  padding: 16px 32px;
+  border-radius: 50px;
+  background-image: linear-gradient(90deg, #fc00ff, #00dbde);
 }
 
 .header-navbar-logo ul img {
   width: 78px;
+  font-size: 16px;
+  font-weight: 600;
 }
 
 #hero .box {
@@ -752,6 +758,8 @@ a {
   background-repeat: no-repeat;
   background-position: center center;
   position: relative;
+  position: fixed;
+  width: 100%;
   font-family: "Inter", sans-serif;
 }
 #headerafter {
@@ -763,19 +771,23 @@ a {
   left: 0px;
   background: rgba(60, 60, 60, 0.5);
 }
-#header .header-navbar {
-  border-bottom: 1px solid gray;
-}
 #header .header-navbar .header-navbar-menu {
   position: relative;
   z-index: 3;
 }
 #header .header-navbar .header-navbar-menu ul li a {
   color: white;
-  font-size: 1em;
+  font-size: 16px;
   font-weight: 600;
+}
+#header .header-navbar .header-navbar-menu ul li button {
+  padding: 16px 32px;
+  border-radius: 50px;
+  background-image: linear-gradient(90deg, #fc00ff, #00dbde);
 }
 
 .header-navbar-logo ul img {
   width: 78px;
+  font-size: 16px;
+  font-weight: 600;
 }
