@@ -722,6 +722,9 @@ a {
   position: relative;
   z-index: 3;
 }
+#header .header-navbar .header-navbar-menu ul {
+  padding: 12px;
+}
 #header .header-navbar .header-navbar-menu ul li a {
   color: white;
   font-size: 16px;
@@ -740,31 +743,19 @@ a {
   font-weight: 600;
 }
 
-.row {
+#hero .row {
   background: black;
   color: white;
 }
-.row .price {
+#hero .row .price {
   font-size: 1.8em;
   line-height: 1;
   font-weight: 700;
 }
-.row .discount {
+#hero .row .discount {
   font-size: 18px;
   font-weight: 300;
   text-decoration: line-through;
-}
-
-#hero .box {
-  width: 400px;
-  height: 400px;
-  background: brown;
-}
-
-#hero .box {
-  width: 400px;
-  height: 400px;
-  background: brown;
 }
 
 #header {
@@ -791,6 +782,9 @@ a {
   position: relative;
   z-index: 3;
 }
+#header .header-navbar .header-navbar-menu ul {
+  padding: 12px;
+}
 #header .header-navbar .header-navbar-menu ul li a {
   color: white;
   font-size: 16px;
@@ -809,16 +803,16 @@ a {
   font-weight: 600;
 }
 
-.row {
+#hero .row {
   background: black;
   color: white;
 }
-.row .price {
+#hero .row .price {
   font-size: 1.8em;
   line-height: 1;
   font-weight: 700;
 }
-.row .discount {
+#hero .row .discount {
   font-size: 18px;
   font-weight: 300;
   text-decoration: line-through;

@@ -24,7 +24,8 @@
              ul{@extend .flex;
                 @extend .align-items-center;
                 @extend .justify-content-end; 
-                @extend .p-size;         
+                @extend .p-size; 
+                padding: 12px;        
                 li{
                     a{ @extend .px-15;
                        color: white;
@@ -53,7 +54,7 @@
 }
 }
 
-
+#hero{
     .row{background: black;
         color: white;     
         .price{
@@ -67,4 +68,5 @@
             text-decoration: line-through;
         }
 
+}
 }
