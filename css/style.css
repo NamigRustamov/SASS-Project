@@ -88,31 +88,31 @@ a {
   align-items: center;
 }
 
-.p-size, .header-navbar-logo ul, #header .header-navbar .header-navbar-menu ul {
+.p-size, #header .header-navbar .header-navbar-menu .header-navbar-logo ul img, #header .header-navbar .header-navbar-menu .header-navbar-logo ul, #header .header-navbar .header-navbar-menu ul {
   padding: 5px;
 }
 
-.p-size, .header-navbar-logo ul, #header .header-navbar .header-navbar-menu ul {
+.p-size, #header .header-navbar .header-navbar-menu .header-navbar-logo ul img, #header .header-navbar .header-navbar-menu .header-navbar-logo ul, #header .header-navbar .header-navbar-menu ul {
   padding: 10px;
 }
 
-.p-size, .header-navbar-logo ul, #header .header-navbar .header-navbar-menu ul {
+.p-size, #header .header-navbar .header-navbar-menu .header-navbar-logo ul img, #header .header-navbar .header-navbar-menu .header-navbar-logo ul, #header .header-navbar .header-navbar-menu ul {
   padding: 15px;
 }
 
-.p-size, .header-navbar-logo ul, #header .header-navbar .header-navbar-menu ul {
+.p-size, #header .header-navbar .header-navbar-menu .header-navbar-logo ul img, #header .header-navbar .header-navbar-menu .header-navbar-logo ul, #header .header-navbar .header-navbar-menu ul {
   padding: 20px;
 }
 
-.p-size, .header-navbar-logo ul, #header .header-navbar .header-navbar-menu ul {
+.p-size, #header .header-navbar .header-navbar-menu .header-navbar-logo ul img, #header .header-navbar .header-navbar-menu .header-navbar-logo ul, #header .header-navbar .header-navbar-menu ul {
   padding: 25px;
 }
 
-.p-size, .header-navbar-logo ul, #header .header-navbar .header-navbar-menu ul {
+.p-size, #header .header-navbar .header-navbar-menu .header-navbar-logo ul img, #header .header-navbar .header-navbar-menu .header-navbar-logo ul, #header .header-navbar .header-navbar-menu ul {
   padding: 30px;
 }
 
-.p-size, .header-navbar-logo ul, #header .header-navbar .header-navbar-menu ul {
+.p-size, #header .header-navbar .header-navbar-menu .header-navbar-logo ul img, #header .header-navbar .header-navbar-menu .header-navbar-logo ul, #header .header-navbar .header-navbar-menu ul {
   padding: 35px;
 }
 
@@ -732,11 +732,27 @@ a {
   border-radius: 50px;
   background-image: linear-gradient(90deg, #fc00ff, #00dbde);
 }
-
-.header-navbar-logo ul img {
+#header .header-navbar .header-navbar-menu .header-navbar-logo ul img {
   width: 78px;
+  padding-top: 35px;
+  padding-left: 35px;
   font-size: 16px;
   font-weight: 600;
+}
+
+.row {
+  background: black;
+  color: white;
+}
+.row .price {
+  font-size: 1.8em;
+  line-height: 1;
+  font-weight: 700;
+}
+.row .discount {
+  font-size: 18px;
+  font-weight: 300;
+  text-decoration: line-through;
 }
 
 #hero .box {
@@ -785,9 +801,25 @@ a {
   border-radius: 50px;
   background-image: linear-gradient(90deg, #fc00ff, #00dbde);
 }
-
-.header-navbar-logo ul img {
+#header .header-navbar .header-navbar-menu .header-navbar-logo ul img {
   width: 78px;
+  padding-top: 35px;
+  padding-left: 35px;
   font-size: 16px;
   font-weight: 600;
+}
+
+.row {
+  background: black;
+  color: white;
+}
+.row .price {
+  font-size: 1.8em;
+  line-height: 1;
+  font-weight: 700;
+}
+.row .discount {
+  font-size: 18px;
+  font-weight: 300;
+  text-decoration: line-through;
 }

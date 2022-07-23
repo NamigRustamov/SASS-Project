@@ -26,8 +26,8 @@
                 @extend .justify-content-end; 
                 @extend .p-size;         
                 li{
-                    a{ color: white;
-                       @extend .px-15;
+                    a{ @extend .px-15;
+                       color: white;
                        font-size: 16px;
                        font-weight: 600;                       
                      }
@@ -38,19 +38,33 @@
                      }
                 }
             }
-    
-}
-}
-}
     .header-navbar-logo{
-        ul{ @extend .p-size;
-            img{
-                width: 78px;
-                padding-left: 35px
-                font-size: 16px;
-                font-weight: 600;
-            }
+            ul{ @extend .p-size;
+                img{@extend .p-size; 
+                    width: 78px;
+                    padding-top: 35px;
+                    padding-left: 35px;                
+                    font-size: 16px;
+                    font-weight: 600;
+                    }
+                }
         }
-    }
+}
+}
+}
 
 
+    .row{background: black;
+        color: white;     
+        .price{
+            font-size: 1.8em;
+            line-height: 1;
+            font-weight: 700;
+        }
+        .discount{
+            font-size: 18px;
+            font-weight: 300;
+            text-decoration: line-through;
+        }
+
+}
