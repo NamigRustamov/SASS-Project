@@ -1,0 +1,24 @@
+#hero{.container-full{padding-top: 80px;
+
+    .row{background: black;
+        color: white; 
+        .price{
+            font-size: 1.8em;
+            line-height: 1;
+            font-weight: 700;
+        }
+        .discount{
+            font-size: 18px;
+            font-weight: 300;
+            text-decoration: line-through;
+        }
+        h1{font-size: 3em;
+            margin: 0.65em;
+            margin-bottom: 20px;
+            line-height: 1.2em;
+            font-family: Inter, sans-serif;
+            font-weight: 700;            
+        }
+}
+}
+}

@@ -54,19 +54,3 @@
 }
 }
 
-#hero{
-    .row{background: black;
-        color: white;     
-        .price{
-            font-size: 1.8em;
-            line-height: 1;
-            font-weight: 700;
-        }
-        .discount{
-            font-size: 18px;
-            font-weight: 300;
-            text-decoration: line-through;
-        }
-
-}
-}

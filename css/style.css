@@ -743,19 +743,56 @@ a {
   font-weight: 600;
 }
 
-#hero .row {
+#hero .container-full {
+  padding-top: 80px;
+}
+#hero .container-full .row {
   background: black;
   color: white;
 }
-#hero .row .price {
+#hero .container-full .row .price {
   font-size: 1.8em;
   line-height: 1;
   font-weight: 700;
 }
-#hero .row .discount {
+#hero .container-full .row .discount {
   font-size: 18px;
   font-weight: 300;
   text-decoration: line-through;
+}
+#hero .container-full .row h1 {
+  font-size: 3em;
+  margin: 0.65em;
+  margin-bottom: 20px;
+  line-height: 1.2em;
+  font-family: Inter, sans-serif;
+  font-weight: 700;
+}
+
+#hero .container-full {
+  padding-top: 80px;
+}
+#hero .container-full .row {
+  background: black;
+  color: white;
+}
+#hero .container-full .row .price {
+  font-size: 1.8em;
+  line-height: 1;
+  font-weight: 700;
+}
+#hero .container-full .row .discount {
+  font-size: 18px;
+  font-weight: 300;
+  text-decoration: line-through;
+}
+#hero .container-full .row h1 {
+  font-size: 3em;
+  margin: 0.65em;
+  margin-bottom: 20px;
+  line-height: 1.2em;
+  font-family: Inter, sans-serif;
+  font-weight: 700;
 }
 
 #header {
@@ -801,19 +838,4 @@ a {
   padding-left: 35px;
   font-size: 16px;
   font-weight: 600;
-}
-
-#hero .row {
-  background: black;
-  color: white;
-}
-#hero .row .price {
-  font-size: 1.8em;
-  line-height: 1;
-  font-weight: 700;
-}
-#hero .row .discount {
-  font-size: 18px;
-  font-weight: 300;
-  text-decoration: line-through;
 }
