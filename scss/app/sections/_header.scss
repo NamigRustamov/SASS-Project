@@ -3,10 +3,12 @@
     width: 100%;
     font-family: $main-font;
 
-    .row{
+    .row{background-color: black;
+        opacity: 0.5;
         padding-top: 12px;
         padding-bottom: 12px;
     }
+    
     .header-navbar{
     .header-navbar-menu{
         position: relative;
@@ -17,13 +19,14 @@
                 @extend .p-size; 
                 padding: 1px;        
                 li{
+                    padding-right: 20px;
                     a{ @extend .px-15;
                        color: white;
                        font-size: 16px;
-                       font-weight: 600;                       
+                       font-weight: 600;                                          
                      }
                      button{
-                        padding: 18px 32px;
+                        padding: 18px 20px;
                         border-radius: 50px;
                         font-weight: 600;
                         color: white;
