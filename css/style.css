@@ -751,7 +751,7 @@ a {
   color: white;
 }
 #hero .container-full .row .price {
-  font-size: 1.8em;
+  font-size: 2em;
   line-height: 1;
   font-weight: 700;
 }
@@ -759,6 +759,7 @@ a {
   font-size: 18px;
   font-weight: 300;
   text-decoration: line-through;
+  margin-left: 30px;
 }
 #hero .container-full .row h1 {
   font-size: 3em;
@@ -767,6 +768,19 @@ a {
   line-height: 1.2em;
   font-family: Inter, sans-serif;
   font-weight: 700;
+}
+#hero .container-full .row p {
+  font-family: Inter, sans-serif;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  margin-left: 30px;
+}
+#hero .container-full .row .prices {
+  display: flex;
+  align-items: flex-end;
+  font-weight: 300;
+  margin-bottom: 40px;
+  margin-left: 30px;
 }
 
 #hero .container-full {
@@ -777,7 +791,7 @@ a {
   color: white;
 }
 #hero .container-full .row .price {
-  font-size: 1.8em;
+  font-size: 2em;
   line-height: 1;
   font-weight: 700;
 }
@@ -785,6 +799,7 @@ a {
   font-size: 18px;
   font-weight: 300;
   text-decoration: line-through;
+  margin-left: 30px;
 }
 #hero .container-full .row h1 {
   font-size: 3em;
@@ -793,6 +808,19 @@ a {
   line-height: 1.2em;
   font-family: Inter, sans-serif;
   font-weight: 700;
+}
+#hero .container-full .row p {
+  font-family: Inter, sans-serif;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  margin-left: 30px;
+}
+#hero .container-full .row .prices {
+  display: flex;
+  align-items: flex-end;
+  font-weight: 300;
+  margin-bottom: 40px;
+  margin-left: 30px;
 }
 
 #header {
