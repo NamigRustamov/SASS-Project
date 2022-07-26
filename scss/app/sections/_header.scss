@@ -1,22 +1,8 @@
 #header{
-    height: 85px;
-    background-color: rgb(19, 19, 19);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    position: relative;
     position: fixed;
     width: 100%;
     font-family: $main-font;
-    &after{
-        content: "";
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        top: 0px;
-        left: 0px;
-        background: rgba(60,60,60,.5);
-    }
+
     .row{
         padding-top: 12px;
         padding-bottom: 12px;
