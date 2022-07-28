@@ -1,4 +1,11 @@
+@import 'common';
 @import 'sections/sections';
 @import 'sections/hero';
 @import 'sections/header';
 @import 'sections/wf-section';
+
+body{
+    font-family: $main-font;
+    background: black;
+
+}
